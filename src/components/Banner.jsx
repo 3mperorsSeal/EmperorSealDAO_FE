@@ -105,7 +105,7 @@ const Banner = () => {
                                         autoplay={{
                                           delay: 0,
                                           disableOnInteraction: false,
-                                          pauseOnMouseEnter: true, // <--- This pauses IMMEDIATELY now
+                                          pauseOnMouseEnter: true,
                                         }}
                                         pagination={{ clickable: true }}
                                         modules={[Autoplay]} // no FreeMode now

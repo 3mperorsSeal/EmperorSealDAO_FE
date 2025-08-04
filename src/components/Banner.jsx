@@ -101,7 +101,7 @@ const Banner = () => {
                                         spaceBetween={20}
                                         slidesPerView={2}
                                         loop={true}
-                                        speed={4000} // Adjust to your desired slide transition duration
+                                        speed={4000}
                                         autoplay={{
                                           delay: 0, // continuous autoplay
                                           disableOnInteraction: false,

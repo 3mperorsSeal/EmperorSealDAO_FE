@@ -103,7 +103,7 @@ const Banner = () => {
                                         loop={true}
                                         speed={4000}
                                         autoplay={{
-                                          delay: 0, // continuous autoplay
+                                          delay: 0,
                                           disableOnInteraction: false,
                                           pauseOnMouseEnter: true, // <--- This pauses IMMEDIATELY now
                                         }}

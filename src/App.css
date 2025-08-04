@@ -375,3 +375,50 @@ border-radius: 50%;
   font-weight: 400;
   width: 75%;
 }
+
+@media screen and (max-width: 576px) {
+  .vertical-text h2 {
+      writing-mode: inherit;
+      transform: none;
+      font-size: 30px;
+  }
+
+  .vertical-text h5 {
+    font-size: 18px;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  .tab-1 h3 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .tab-1 p {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .video-h {
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 3px;
+  }
+  .custom-tabs li button {
+    padding: 10px 14px 5px 10px;
+    font-size: 10px;
+  }
+
+  .custom-tabs {
+    left: 30px;
+  }
+  .collab h3 {
+    text-align: center;
+  }
+  .collab p {
+    text-align: center;
+  }
+  .home-tab .tab-content {
+    top: 34%;
+  }
+}

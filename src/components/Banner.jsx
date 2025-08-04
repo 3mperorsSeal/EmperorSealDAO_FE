@@ -23,13 +23,17 @@ const Banner = () => {
                 {/* Sidebar */}
                 <div className='col-lg-2 col-12'>
                     <div className="vertical-text">
-                        <h2 className='color-primary ms-0'>
+                        <h2 className='color-primary ms-0 d-md-inline d-none'>
                             EMPEROR <br />
-                            <span className="seal">SEAL</span> <span className='text-white'>|</span>{' '}
+                            <span className="seal">SEAL</span> <span className='text-white d-md-inline d-none'>|</span>{' '}
                             <span className="dao text-white">DAO</span>
                         </h2>
+                        <h2 className='color-primary ms-0 d-md-none d-block'>
+                            EMPEROR SEAl
+                        </h2>
+                        <h5 className='d-md-none d-block'>DAO</h5>
                     </div>
-                    <div className='mt-232 position-relative'>
+                     <div className='mt-232 position-relative d-md-block d-none'>
                         <h4 className='color-primary fw-bold mb-3'>Follow Us</h4>
                         <p className='text-white font-12'>
                             We are a results-driven digital agency dedicated to helping brands grow, engage, and thrive in the digital space.
@@ -61,7 +65,7 @@ const Banner = () => {
                         </video>
 
                         {/* Contact Button */}
-                        <div className='position-absolute top-12 right-button'>
+                        <div className='position-absolute top-12 right-button d-md-block d-none'>
                             <div className='bg-banner-btn rounded-pill z-1 bg-dark-right px-5 py-3'>
                                 <h5 className='d-flex mb-0 align-items-center'>
                                     Contact Us{' '}
@@ -73,7 +77,7 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <img className='w-100 position-absolute start-0 h-48 top-0' src='/assets/images/07.png' />
+                    <img className='w-100 position-absolute start-0 h-48 top-0 d-md-block d-none' src='/assets/images/07.png' />
 
                     {/* Tabs Section */}
                     <div className='home-tab'>
@@ -210,6 +214,32 @@ const Banner = () => {
                                 </div>
                             </Tab>
                         </Tabs>
+                    </div>
+
+                    <div className='position-absolut top-12 right-button d-md-none mt-4'>
+                            <div className='bg-banner-btn w-100 rounded-pill z-1 bg-dark-right px-5 py-3'>
+                                <h5 className='d-flex mb-0 align-items-center justify-content-center'>
+                                    Contact Us{' '}
+                                    <span className='circle-icon ms-3'>
+                                        <FontAwesomeIcon icon={faArrowRight} size="sm" />
+                                    </span>
+                                </h5>
+                            </div>
+                        </div>
+
+                    <div className='mt-5 position-relative d-md-none'>
+                        <img className='mx-auto mb-3 d-md-none d-block' src='/assets/images/mobile-img.svg' />
+                        <h4 className='color-primary fw-bold mb-3 text-center'>Follow Us</h4>
+                        <p className='text-white font-12 text-center'>
+                            We are a results-driven digital agency dedicated to helping brands grow, engage, and thrive in the digital space.
+                        </p>
+                        <div className='d-flex gap-4 justify-content-center'>
+                            <FontAwesomeIcon className='text-white' icon={faXTwitter} size="lg" />
+                            <FontAwesomeIcon className='text-white' icon={faFacebook} size="lg" />
+                            <FontAwesomeIcon className='text-white' icon={faInstagram} size="lg" />
+                            <FontAwesomeIcon className='text-white' icon={faLinkedin} size="lg" />
+                        </div>
+                       
                     </div>
                 </div>
             </div>

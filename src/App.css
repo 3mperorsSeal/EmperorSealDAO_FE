@@ -421,4 +421,33 @@ border-radius: 50%;
   .home-tab .tab-content {
     top: 34%;
   }
-}
+
+  #project-tabs-tabpane-projects {
+    width: 20rem;
+    overflow-x: auto;
+  }
+  .collab h3 {
+    font-size: 24px;
+  }
+  .collab p {
+    width: 100%;
+  }
+
+  #project-tabs-tabpane-collaborations {
+    margin-left: -36px;
+  }
+  #project-tabs-tabpane-projects .px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  #project-tabs-tabpane-home .px-4 {
+
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+  }
+
+  #project-tabs-tabpane-home {
+    margin-right: 37px;
+  }
+}  

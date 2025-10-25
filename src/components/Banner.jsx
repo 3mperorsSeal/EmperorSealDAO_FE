@@ -77,7 +77,7 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    <img className='w-100 position-absolute start-0 h-48 top-0 d-md-block d-none' src='/assets/images/07.png' />
+                    <img alt='image1' className='w-100 position-absolute start-0 h-48 top-0 d-md-block d-none' src='/assets/images/07.png' />
 
                     {/* Tabs Section */}
                     <div className='home-tab'>
@@ -131,7 +131,7 @@ const Banner = () => {
                                                 </div>
 
                                                 <div className="bg-overlay-5 position-absolute bottom-0 end-0 opacity-10 pe-3 pb-2">
-                                                    <span style={{ fontSize: '6rem', fontWeight: 'bold', color: '#d9c8a8' }}><img src='/assets/images/union.svg' /></span>
+                                                    <span style={{ fontSize: '6rem', fontWeight: 'bold', color: '#d9c8a8' }}><img alt='union1' src='/assets/images/union.svg' /></span>
                                                 </div>
                                                 <div class="social">
                                                     <FontAwesomeIcon className='text-white bg-radial' icon={faXTwitter} size="lg" />
@@ -160,7 +160,7 @@ const Banner = () => {
                                                 </div>
 
                                                 <div className="bg-overlay-5 position-absolute bottom-0 end-0 opacity-10 pe-3 pb-2">
-                                                    <span style={{ fontSize: '6rem', fontWeight: 'bold', color: '#d9c8a8' }}><img src='/assets/images/union.svg' /></span>
+                                                    <span style={{ fontSize: '6rem', fontWeight: 'bold', color: '#d9c8a8' }}><img alt='union2' src='/assets/images/union.svg' /></span>
                                                 </div>
                                                 <div class="social">
                                                     <FontAwesomeIcon className='text-white bg-radial' icon={faXTwitter} size="lg" />
@@ -188,7 +188,7 @@ const Banner = () => {
                                                 </div>
 
                                                 <div className="bg-overlay-5 position-absolute bottom-0 end-0 opacity-10 pe-3 pb-2">
-                                                    <span style={{ fontSize: '6rem', fontWeight: 'bold', color: '#d9c8a8' }}><img src='/assets/images/union.svg' /></span>
+                                                    <span style={{ fontSize: '6rem', fontWeight: 'bold', color: '#d9c8a8' }}><img alt='union3' src='/assets/images/union.svg' /></span>
                                                 </div>
                                                 <div class="social">
                                                     <FontAwesomeIcon className='text-white bg-radial' icon={faXTwitter} size="lg" />
@@ -228,7 +228,7 @@ const Banner = () => {
                         </div>
 
                     <div className='mt-5 position-relative d-md-none'>
-                        <img className='mx-auto mb-3 d-md-none d-block' src='/assets/images/mobile-img.svg' />
+                        <img alt='mobile-img' className='mx-auto mb-3 d-md-none d-block' src='/assets/images/mobile-img.svg' />
                         <h4 className='color-primary fw-bold mb-3 text-center'>Follow Us</h4>
                         <p className='text-white font-12 text-center'>
                             We are a results-driven digital agency dedicated to helping brands grow, engage, and thrive in the digital space.
